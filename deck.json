@@ -1,0 +1,1280 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [
+                {
+                    "__type__": "Deck",
+                    "children": [
+                        {
+                            "__type__": "Deck",
+                            "children": [],
+                            "crowdanki_uuid": "38328988-079d-11ec-b314-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [
+                                "paste-07bd6d3d5ad86bc5d16483286db34eb97d898fa9.jpg",
+                                "paste-07f14e534e22e361f5d7dec8b7617966be235df0.jpg",
+                                "paste-14420c3abac7fecd932df0794506b3049f0b5f5e.jpg",
+                                "paste-271f8d8325a0fcb9383d959a42530dd32c74f35d.jpg",
+                                "paste-3085956e2b51bb3adceb3b481485e1cb061e3696.jpg",
+                                "paste-31b11bb98119df221265b42a145da6bb2a6b62d9.jpg",
+                                "paste-503bc30c9df797c806ce94860ba11f545f51a32e.jpg",
+                                "paste-5844996fd259dedb3fd684a67698333904129ae5.jpg",
+                                "paste-5aace55ea8ea45229a4442d6d9a912cc107cfb5e.jpg",
+                                "paste-5b70491a5e3040310a96544f5494dc9aae7c81fd.jpg",
+                                "paste-6bb5f2c36249b685ab2d52eb97dccc523494577c.jpg",
+                                "paste-6c501869dd1914fbf974da98d0fc9452db1b5ab4.jpg",
+                                "paste-80c066ce842676c2e4bcfa2cbf22a612fb314e86.jpg",
+                                "paste-b1d59ef498e07940c4e595b8fc43e3098300671a.jpg",
+                                "paste-b96cc7275f8062e730958b75b09e790052dab7a7.jpg",
+                                "paste-bad1754d549f78ea49da0bdf52aa46002b24acd4.jpg",
+                                "paste-c95536e10c7e26bd7869be0a72cbb976a1b8edac.jpg",
+                                "paste-cee074307529ee12f9310f33aef138f6f6be346e.jpg",
+                                "paste-cf9d00758e503bcae0d5f574f91a8fc40a228b93.jpg",
+                                "paste-d116ff3e8ab6ee5f13dd1dae76ada53d5dddca62.jpg",
+                                "paste-d9219e1a72bf9719c9da74b0e76c6a31ca2185f8.jpg",
+                                "paste-da74bad6b566275caf1f964216fe435212b24903.jpg",
+                                "paste-e00c213ce87cdba4828f0329a87b4a49f9570e9e.jpg",
+                                "paste-fba9cb53fd3607915cfd773693ef3cb59ec405f2.jpg",
+                                "paste-fced8da294105490e7eb026b9e97952eb3247c83.jpg",
+                                "paste-ff26106a80a2f4ae69a3e2a2702e74338a3a6851.jpg",
+                                "paste-ff9b503a7e49a53d3297b94485031de0d67ffacd.jpg"
+                            ],
+                            "name": "6. Code Challenges 1",
+                            "notes": [
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Create a function named <b>large_power()</b> that takes two parameters named <b>base</b> and <b>exponent</b>. If <b>base</b> raised to the <b>exponent</b>&nbsp;power is greater than <b>5000</b>, return <b>True</b>, otherwise return <b>False</b>",
+                                        "<b>Example 1:<br>input:</b> base = 5000, exponent = 1<br><b>output</b>: False<br><br><b>Example 2:<br>input: </b>base = 100, exponent = 2<br><b>output: </b>True",
+                                        "def large_power(base, exponent):",
+                                        "<div><div>print(large_power(2, 13))</div><div># should print True</div><div>print(large_power(2, 12))</div><div># should print False</div></div>",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
+                                        "Go to <b>1. Large Power</b>",
+                                        "def large_power(base, exponent):<br>&nbsp; &nbsp; if base ** exponent &gt; 5000:<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False",
+                                        "# In this solution, we have an example of how the operation can be performed in the condition of the <b>if</b> statement. This prevents us from needing to create an extra variable. If the condition is true, then the indented code is executed which returns <b>True</b>, otherwise the indented code in the <b>else</b> statement is executed.",
+                                        "",
+                                        "A11BE85D-1873-474C-B554-5F24AA79E091"
+                                    ],
+                                    "guid": "rh;RsJI+(R",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Create a function named <b>twice_as_large()</b> that has two parameters named <b>num1</b> and <b>num2</b>. Return <b>True</b> if <b>num1</b> is more than double <b>num2</b>. Return <b>False</b> otherwise.",
+                                        "<b>Example 1:<br>input: </b>num1 = 20, num2 = 10<br><b>output: </b>False<br><br><b>Example 2:<br>input:&nbsp;</b>num1 = 21, num2 = 10<b><br>output: </b>True",
+                                        "def twice_as_large(num1, num2):",
+                                        "<div><div>print(twice_as_large(10, 5))</div><div># should print False</div><div>print(twice_as_large(11, 5))</div><div># should print True</div></div>",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
+                                        "Go to <b>3. Twice As Large</b>",
+                                        "def twice_as_large(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 &gt; 2 * num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
+                                        "In this function, we performed the operation within the condition of the if statement. The second input is multiplied by 2 and then compared to the first input on the same line.<br><br>The condition&nbsp;<b>num1 / 2 &gt; num2&nbsp;</b>also works",
+                                        "",
+                                        "e5700982-8d69-4fe7-932f-876995f7332b"
+                                    ],
+                                    "guid": "DIu<`cE8(F",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Create a function called <b>divisible_by_ten()</b> that has one parameter named <b>num</b>. The function should return <b>True</b> if <b>num</b> is divisible by <b>10</b>, and <b>False</b> otherwise.",
+                                        "<b>Example 1:<br>input: </b>num = 51<br><b>output: </b>False<br><br><b>Example 2:</b><br><b>input: </b>num = 50<br><b>output: </b>True",
+                                        "def divisible_by_ten(num):",
+                                        "<div><div>print(divisible_by_ten(20))</div><div># should print True</div><div>print(divisible_by_ten(25))</div><div># should print False</div></div>",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
+                                        "Go to <b>4. Divisible By Ten</b>",
+                                        "# Make sure to use the modulus operator when solving this problem.<br><br>def divisible_by_ten(num):<br><b>&nbsp;&nbsp;&nbsp; if num % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
+                                        "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return <b>True</b> otherwise we return <b>False</b>.",
+                                        "",
+                                        "3be29ad2-967d-41f6-8dab-3677543f44e2"
+                                    ],
+                                    "guid": "i+gRzn@%YZ",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Create a function named <b>in_range()</b> that has three parameters named <b>num</b>, <b>lower</b>, and <b>upper</b>. The function should return <b>True</b> if <b>num</b> is greater than or equal to <b>lower</b> and less than or equal to <b>upper</b>. Otherwise, return <b>False</b>.",
+                                        "<b>Example 1:<br>input: </b>num = 10, lower = 10, upper = 10<br><b>output: </b>True<br><br><b>Example 2:</b><br><b>input: </b>num = 5, lower = 10, upper = 20<br><b>output:&nbsp;</b>&nbsp;False<br><br><b>Example 3:</b><br><b>input: </b>num = 5, lower = 0, upper = 10<br><b>output:&nbsp;</b>&nbsp;True",
+                                        "def in_range(num, lower, upper):",
+                                        "<div><div>print(in_range(10, 10, 10))</div><div># should print True</div><div>print(in_range(5, 10, 20))</div><div># should print False</div></div>",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
+                                        "Go to <b>1. In Range</b>",
+                                        "def in_range(num, lower, upper):<br><b>&nbsp;&nbsp;&nbsp; if num &gt;= lower and num &lt;= upper:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; return False</b>",
+                                        "In this solution, we test the two bounds connected with an&nbsp;<b>and</b>&nbsp;boolean operator. This means that the code nested in the&nbsp;<b>if</b>&nbsp;statement will only execute if both of the conditions are true. We also do not include the&nbsp;<b>else</b>&nbsp;statement here. Since our&nbsp;if&nbsp;statement will return&nbsp;<b>True</b>&nbsp;and exit the function if the condition is true, the last line will only be reached if the condition was false.",
+                                        "",
+                                        "2bdd76b8-96c9-4f0b-9f0e-413e38e0b526"
+                                    ],
+                                    "guid": "fsqN;Nvy<J",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create a function named&nbsp;<b>same_name()</b>&nbsp;that has two parameters named&nbsp;<b>your_name</b>&nbsp;and&nbsp;<b>my_name</b>.</div><div>If our names are identical, return&nbsp;<b>True</b>. Otherwise, return&nbsp;<b>False</b>.</div>",
+                                        "<b>Example 1:<br>input: </b>your_name = \"Colby\", my_name = \"Colby\"<br><b>output: </b>True<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>your_name =&nbsp;\"Tina\", my_name = \"Amber\"<br><b>output: </b>False",
+                                        "def same_name(your_name, my_name):",
+                                        "<div><div>print(same_name(\"Colby\", \"Colby\"))</div><div># should print True</div><div>print(same_name(\"Tina\", \"Amber\"))</div><div># should print False</div></div>",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
+                                        "Go to <b>2. Same Name</b>",
+                                        "def same_name(your_name, my_name):<br><b>&nbsp; &nbsp; if (your_name == my_name):<br>&nbsp; &nbsp; &nbsp; &nbsp; return True<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
+                                        "As you can see in this solution code, comparing two strings in python can be done using the&nbsp;<b>==</b>&nbsp;operator. If you want an added challenge, you can try shortening the function body to one line of code!",
+                                        "",
+                                        "c68ef10f-4334-47ed-81aa-a1f38ab9b962"
+                                    ],
+                                    "guid": "g=iT$hCXT+",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create a function named&nbsp;<b>movie_review()</b>&nbsp;that has one parameter named&nbsp;<b>rating</b>.</div><div>If&nbsp;<b>rating</b>&nbsp;is less than or equal to&nbsp;<b>5</b>, return&nbsp;<b>\"Avoid at all costs!\"</b>. <br>If&nbsp;<b>rating</b>&nbsp;is between&nbsp;<b>5</b>&nbsp;and&nbsp;<b>9</b>, return&nbsp;<b>\"This one was fun.\"</b>. <br>If&nbsp;<b>rating</b>&nbsp;is&nbsp;<b>9</b>&nbsp;or above, return&nbsp;<b>\"Outstanding!\"</b></div>",
+                                        "<b>Example 1:<br>input: </b>rating = 9<br><b>output:&nbsp;</b>\"Outstanding!\"<b><br></b><br><b>Example 2:</b><br><b>input:&nbsp;</b>rating =&nbsp;4<br><b>output:&nbsp;</b>\"Avoid at all costs!\"<b><br></b><br><b>Example 3:</b><br><b>input:&nbsp;</b>rating =&nbsp;6<br><b>output:&nbsp;</b>\"This one was fun.\"",
+                                        "def movie_review(rating):",
+                                        "<div><div>print(movie_review(9))</div><div># should print \"Outstanding!\"</div><div>print(movie_review(4))</div><div># should print \"Avoid at all costs!\"</div><div>print(movie_review(6))</div><div># should print \"This one was fun.\"</div></div>",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
+                                        "Go to <b>4. Movie Review</b>",
+                                        "def movie_review(rating):<br>&nbsp;&nbsp;&nbsp; if rating &lt;= 5:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"Avoid at all costs!\"<br>&nbsp;&nbsp;&nbsp; if rating &lt; 9:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"This one was fun.\"<br>&nbsp;&nbsp;&nbsp; return \"Outstanding!\"",
+                                        "To solve this, we used a series of&nbsp;<b>if</b>&nbsp;statements to select which string to return. Another way of solving this would be to use&nbsp;<b>if</b>,&nbsp;<b>elif</b>&nbsp;and&nbsp;<b>else</b>&nbsp;statements.",
+                                        "",
+                                        "18a7ddca-d0df-4699-9ca7-5322e54b8f7f"
+                                    ],
+                                    "guid": "L#vq%[eULg",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create a function called&nbsp;<b>max_num()</b>&nbsp;that has three parameters named&nbsp;<b>num1</b>,&nbsp;<b>num2</b>, and&nbsp;<b>num3</b>.</div><div>The function should return the largest of these three numbers. If any of two numbers tie as the largest, you should return&nbsp;<b>\"It's a tie!\"</b>.</div>",
+                                        "<b>Example 1:<br>input: </b>num1 = -10, num2 = 0, num3 = 10<br><b>output: </b>10<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>num1 = -10, num2 = 5, num3 = -30<br><b>output: </b>5<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>num1 = -5, num2 = -10, num3 = -10<br><b>output: </b>-5<br><br><b>Example 4:<br>input:&nbsp;</b>num1 = 2, num2 = 3, num3 = 3<b><br>output: </b>\"It's a tie!\"<b><br></b>",
+                                        "def max_num(num1, num2, num3):",
+                                        "<div><div>print(max_num(-10, 0, 10))</div><div># should print 10</div><div>print(max_num(-10, 5, -30))</div><div># should print 5</div><div>print(max_num(-5, -10, -10))</div><div># should print -5</div><div>print(max_num(2, 3, 3))</div><div># should print \"It's a tie!\"</div></div>",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-control-flow</a>",
+                                        "Go to <b>5. Max Number</b>",
+                                        "def max_num(num1, num2, num3):<br>&nbsp;&nbsp;&nbsp; if num1 &gt; num2 and num1 &gt; num3:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num1<br>&nbsp;&nbsp;&nbsp; elif num2 &gt; num1 and num2 &gt; num3:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num2<br>&nbsp;&nbsp;&nbsp; elif num3 &gt; num1 and num3 &gt; num2:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return num3<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return \"It's a tie!\"",
+                                        "In this code, we use a series of&nbsp;<b>if</b>,&nbsp;<b>elif</b>, and&nbsp;<b>else</b>&nbsp;statements. We test the first parameter against the other two parameters and return the value if it is greater than the other two. We have two more tests to check if the second parameter is greater than the other two, then if the third parameter is greater than the other two. In the case where none of the parameters were greater than both of the other parameters, then we know that there must have been a tie and the final return statement is reached.",
+                                        "",
+                                        "db26d26e-a48d-4e16-b612-0abc0f1c83b9"
+                                    ],
+                                    "guid": "t<[oZd:,9|",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Create a function called <b>over_budget</b> that has five parameters named <b>budget</b>, <b>food_bill</b>, <b>electricity_bill</b>, <b>internet_bill</b>, and <b>rent</b>.&nbsp;The function should return <b>True</b> if <b>budget</b> is less than the sum of the other four parameters — you’ve gone over budget! Return <b>False</b> otherwise.",
+                                        "<b>Example 1:<br>input: </b>budget = 10, food_bill = 2, electricity_bill = 2, internet_bill = 2, rent = 4<br><b>output: </b>False<br><b><br></b><b>Example 2:<br>input:&nbsp;</b>budget = 10, food_bill = 5, electricity_bill = 5, internet_bill = 10, rent = 10<br><b>output: </b>True",
+                                        "def over_budget(budget, food_bill, electricity_bill, internet_bill, rent):&nbsp;",
+                                        "<div><div>print(over_budget(100, 20, 30, 10, 40))</div><div># should print False</div><div>print(over_budget(80, 20, 30, 10, 30))</div><div># should print True</div></div>",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
+                                        "Go to <b>2. Over Budget</b>",
+                                        "def over_budget(budget, food_bill, electricity_bill, internet_bill, rent): <br><b>&nbsp; &nbsp; if (budget &lt; food_bill + electricity_bill + internet_bill + rent): <br>&nbsp; &nbsp; &nbsp; &nbsp; return True <br>&nbsp; &nbsp; else: <br>&nbsp; &nbsp; &nbsp; &nbsp; return False</b>",
+                                        "We can perform the operations within the condition of the <b>if</b> statement to prevent us from creating an extra variable. We calculate the sum and compare it to <b>budget</b> at the same time and return <b>True</b> if the condition is met, otherwise we return <b>False</b>.",
+                                        "",
+                                        "1cd58f94-6cc9-4bc5-9a13-7eeb47ef48b3"
+                                    ],
+                                    "guid": "qHJ6T9`7Tq",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "Create a function named <b>not_sum_to_ten()</b> that has two parameters named <b>num1</b> and <b>num2</b>. Return <b>True</b> if <b>num1</b> and <b>num2</b> do not sum to <b>10</b>. Return <b>False</b> otherwise.",
+                                        "<b>Example 1:<br>input: </b>num1 = 10, num2 = 0<br><b>output: </b>False<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>&nbsp;num1 = 10, num2 = -5<br><b>output: </b>True",
+                                        "def not_sum_to_ten(num1, num2):",
+                                        "<div><div>print(not_sum_to_ten(9, -1))</div><div># should print True</div><div>print(not_sum_to_ten(9, 1))</div><div># should print False</div><div>print(not_sum_to_ten(5,5))</div><div># should print False</div></div>",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-control-flow/#heading-function-syntax</a>",
+                                        "Go to <b>5. Not Sum To Ten Ten</b>",
+                                        "def not_sum_to_ten(num1, num2):<br><b>&nbsp;&nbsp;&nbsp; if num1 + num2 != 10:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False</b>",
+                                        "#&nbsp;In this solution, we perform the modulus operation within the condition of the if statement. We test if the result is equal to 0 and if it is, then we return&nbsp;<b>True</b>&nbsp;otherwise we return&nbsp;<b>False</b>.",
+                                        "",
+                                        "87c9c773-7dc1-4817-b15d-4bec84def56f"
+                                    ],
+                                    "guid": "H_cQMwggh?",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create a function called&nbsp;<b>append_size</b>&nbsp;that has one parameter named&nbsp;<b>lst</b>.<br><br></div><div>The function should append the size of&nbsp;<b>lst</b>&nbsp;(inclusive) to the end of&nbsp;<b>lst</b>. The function should then return this new list.<br><br></div><div>For example, if&nbsp;<b>lst</b>&nbsp;was&nbsp;<b>[23, 42, 108]</b>, the function should return&nbsp;<b>[23, 42, 108, 3]</b>&nbsp;because the size of&nbsp;<b>lst</b>&nbsp;was originally&nbsp;<b>3</b>.</div>",
+                                        "<b>Example 1:</b><br><b>input: </b>lst =&nbsp;[10, 100, 23, 18]<br><b>output:&nbsp;</b>[10, 100, 23, 18, 4]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = []<br><b>output: </b>[0]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst = [9]<br><b>output: </b>[9, 1]",
+                                        "def append_size(lst):",
+                                        "print(append_size([10, 100, 23, 18]))&nbsp;<br># should print [10, 100, 23, 18, 4]<br>print(append_size([]))<br># should print [0]<br>print(append_size([9]))<br># should print [9, 1]",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
+                                        "Go to <b>1. Append Size</b>",
+                                        "def append_size(lst):<br>&nbsp;&nbsp;&nbsp; lst.append(len(lst))<br>&nbsp;&nbsp;&nbsp; return lst",
+                                        "<div><div>We can get the length and append it at the same time by nesting the function calls as shown in the solution. Afterward, we return the modified list.</div></div>",
+                                        "",
+                                        "2fbbdefe-0a68-4ffe-90c7-852fa7915fe3"
+                                    ],
+                                    "guid": "dB}WvVmo]J",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Write a function named&nbsp;<b>append_sum</b>&nbsp;that has one parameter — a list named named&nbsp;<b>lst</b>.<br><br></div><div>The function should add the last two elements of&nbsp;<b>lst</b>&nbsp;together and append the result to&nbsp;<b>lst</b>. It should do this process three times and then return&nbsp;<b>lst</b>.<br><br></div><div>For example, if&nbsp;<b>lst</b>&nbsp;started as&nbsp;<b>[1, 1, 2]</b>, the final result should be&nbsp;<b>[1, 1, 2, 3, 5, 8]</b>.</div>",
+                                        "<b>Example 1:<br>input:&nbsp;</b>lst = [5, 2]<br><b>output: </b>[5, 2, 7, 9, 16]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = [100, 12, 37, 2, 1]<br><b>output:&nbsp;</b>[100, 12, 37, 2, 1, 3, 4, 7]<br><br><b>Example 3: </b><br><b>input:&nbsp;</b>lst = [1, 1]<br><b>output: </b>[1, 1, 2, 3, 5]",
+                                        "def append_sum(lst):",
+                                        "print(append_sum([5, 2]))<br># should print [5, 2, 7, 9, 16]<br>print(append_sum([100, 12, 37, 2, 1]))<br># should print [100, 12, 37, 2, 1, 3, 4, 7]<br>print(append_sum([1, 1]))<br># should print [1, 1, 2, 3, 5]",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
+                                        "Go to <b>2. Append Sum</b>",
+                                        "def append_sum(lst):<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; lst.append(lst[-1] + lst[-2])<br>&nbsp;&nbsp;&nbsp; return lst",
+                                        "In our solution, we add the numbers and append the result in one line. We add the last and second to last elements within the&nbsp;<b>.append()</b>&nbsp;function and we repeat this line two more times. Remember that when we use negative indices, it starts from the end of the list and goes towards the beginning of the list. You could also use a loop to solve this instead of repeating the lines.",
+                                        "",
+                                        "3714ed1a-22a8-48ab-a8eb-2b22f3f5933e"
+                                    ],
+                                    "guid": "znq@{A--0c",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Write a function named&nbsp;<b>larger_list</b>&nbsp;that has two parameters named&nbsp;<b>lst1</b>&nbsp;and&nbsp;<b>lst2</b>.<br><br></div><div>The function should return the last element of the list that contains more elements. If both lists are the same size, then return the last element of&nbsp;<b>lst1</b>.</div>",
+                                        "<b>Example 1:<br>input: </b>lst1 = [4, 10, 2, 5], lst2 = [-10, 2, 5, 10]<br><b>output:&nbsp;</b>5<br><br><b>Example 2:</b><br><b>input: </b>lst1 = [1, 2, 3, 4], lst2 = [1, 2]<br><b>output:&nbsp;</b>4<br><br><b>Example 3:</b><br><b>input: </b>lst1 = [2, 6, 3], lst2 = [4, 6, 8, 1]<br><b>output: </b>1",
+                                        "def larger_list(lst1, lst2):",
+                                        "print(larger_list([4, 10, 2, 5], lst2 = [-10, 2, 5, 10]))<br># should print 5<br>print(larger_list(&nbsp;[1, 2, 3, 4], [1, 2]))<br># should print 4<br>print(larger_list(&nbsp;[2, 6, 3], [4, 6, 8, 1]))<br># should print 1",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
+                                        "Go to <b>3. Larger List</b>",
+                                        "def larger_list(lst1, lst2):<br>&nbsp;&nbsp;&nbsp; if len(lst1) &gt;= len(lst2):<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst1[-1]<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst2[-1]",
+                                        "<div>We start by comparing the lengths of each of the lists using the&nbsp;<b>len()</b>&nbsp;function. This determines whether to return the last element of the first list or the second list. Notice that we use&nbsp;<b>&gt;=</b>. This way, we know what to do if the lists have an equal length.<br><br></div><div>In order to get the last element, we get the element at the -1 index. The negative index starts at the end of the list and works towards the start of the list.</div>",
+                                        "",
+                                        "9bb9364f-9aeb-4e6e-b900-3b3c820a9a44"
+                                    ],
+                                    "guid": "pzh6*-%rdt",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create a function named&nbsp;<b>more_than_n</b>&nbsp;that has three parameters named&nbsp;<b>lst</b>,&nbsp;<b>item</b>, and&nbsp;<b>n</b>.<br><br></div><div>The function should return&nbsp;<b>True</b>&nbsp;if&nbsp;<b>item</b>&nbsp;appears in the list more than&nbsp;<b>n</b>&nbsp;times. The function should return&nbsp;<b>False</b>&nbsp;otherwise.</div>",
+                                        "<b>Example 1:<br>input: </b>lst = [2, 4, 6, 2, 3, 2, 1, 2], item = 2, n = 3<b><br></b><b>output: </b>True<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = [1, 1, 1], item = 1, n = 3<br><b>output: </b>False<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst = [1, 1, 1], item = 1, n = 2<br><b>output: </b>True",
+                                        "def more_than_n(lst, item, n):",
+                                        "print(more_than_n([2, 4, 6, 2, 3, 2, 1, 2], item = 2, n = 3))<br># should print True<br>print(more_than_n([1, 1, 1], item = 1, n = 3))<br># should print False<br>print(more_than_n([1, 1, 1], item = 1, n = 2))<br># should print True",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
+                                        "Go to <b>4. More Than N</b>",
+                                        "def more_than_n(lst, item, n):<br>&nbsp;&nbsp;&nbsp; if lst.count(item) &gt; n:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return True<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return False",
+                                        "We use the&nbsp;<b>count()</b>&nbsp;list method to count the number of times&nbsp;<b>item</b>&nbsp;appears in&nbsp;<b>lst</b>. You could also do this manually by looping through&nbsp;<b>lst</b>&nbsp;and incrementing a variable every time you see&nbsp;<b>item</b>. We then compare the result to&nbsp;<b>n</b>.",
+                                        "",
+                                        "8bf60e60-9656-4a8e-b3f5-b65123cb54c3"
+                                    ],
+                                    "guid": "Aer:)MCmU%",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Write a function named&nbsp;<b>combine_sort</b>&nbsp;that has two parameters named&nbsp;<b>lst1</b>&nbsp;and&nbsp;<b>lst2</b>.<br><br></div><div>The function should combine these two lists into one new list and sort the result. Return the new sorted list.</div>",
+                                        "<b>Example 1:<br>input: </b>lst1 = [4, 10, 2, 5], lst2 = [-10, 2, 5, 10]<b><br></b><b>output:&nbsp;</b>[-10, 2, 2, 4, 5, 5, 10, 10]<b><br><br>Example 2:<br>input:&nbsp;</b>lst1 = [10, 5, 15], lst2 = [50, 5, 6]<b><br></b><b>output:&nbsp;</b>[5, 5, 6, 10, 15, 50]<br><b><br></b><b>Example 3:<br>input:&nbsp;</b>lst1 =&nbsp;[1, 3, 5], lst2 = [2, 4, 6]<b><br></b><b>output:&nbsp;</b>[1, 2, 3, 4, 5]",
+                                        "def combine_sort(lst1, lst2):",
+                                        "print(combine_sort([4, 10, 2, 5], [-10, 2, 5, 10]))<br># should print [-10, 2, 2, 4, 5, 5, 10, 10]<br>print(combine_sort([10, 5, 15], [50, 5, 6]))<br># should print [5, 5, 6, 10, 15, 50]<br>print(combine_sort([1, 3, 5], [2, 4, 6]))<br># should print [1, 2, 3, 4, 5]",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-lists</a>",
+                                        "Go to <b>5. Combine Sort</b>",
+                                        "def combine_sort(lst1, lst2):<br>&nbsp;&nbsp;&nbsp; unsorted = lst1 + lst2<br>&nbsp;&nbsp;&nbsp; sortedList = sorted(unsorted)<br>&nbsp;&nbsp;&nbsp; return sortedList",
+                                        "We start by combining the two lists together using&nbsp;<b>+</b>&nbsp;in order to get a new list. Next, in order to sort them, we use the&nbsp;<b>sorted()</b>&nbsp;function which returns a new sorted version of the list.",
+                                        "",
+                                        "27673cda-5d7d-4936-8270-c95eeb7feda5"
+                                    ],
+                                    "guid": "f5TT4dHd$D",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create a function called&nbsp;<b>every_three_nums</b>&nbsp;that has one parameter named&nbsp;<b>start</b>.<br><br></div><div>The function should return a list of every third number between&nbsp;<b>start</b>&nbsp;and&nbsp;<b>100</b>&nbsp;(inclusive). For example,&nbsp;<b>every_three_nums(91)</b>&nbsp;should return the list&nbsp;<b>[91, 94, 97, 100]</b>. If&nbsp;<b>start</b>&nbsp;is greater than&nbsp;<b>100</b>, the function should return an empty list.</div>",
+                                        "<b>Example 1:<br>input: </b>start = 91<br><b>output:&nbsp;</b>[91, 94, 97, 100]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>start = 92<br><b>output:&nbsp;</b>[92, 95, 98]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>start = -10<br><b>output:&nbsp;</b>[-10, -7, -4, -1, 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83, 86, 89, 92, 95, 98]",
+                                        "def every_three_nums(start):",
+                                        "print(every_three_nums(91))<br># should print [91, 94, 97, 100]<br>print(every_three_nums(92))<br># should print [92, 95, 98]<br>print(every_three_nums(-10))<br># should print [-10, -7, -4, -1, 2, 5, 8, 11, 14, 17, 20, 23, 26, 29, 32, 35, 38, 41, 44, 47, 50, 53, 56, 59, 62, 65, 68, 71, 74, 77, 80, 83, 86, 89, 92, 95, 98]",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
+                                        "Go to <b>1. Every Three Numbers</b>",
+                                        "def every_three_nums(start):<br>&nbsp; &nbsp; return list(range(start, 101, 3))",
+                                        "We can write the body of this function in one line by nesting the&nbsp;<b>range()</b>&nbsp;function inside of the&nbsp;<b>list()</b>&nbsp;function. The range function accepts the starting number, the ending number (exclusive), and the amount to increment by.",
+                                        "",
+                                        "1e4fd6ea-05c9-4008-a252-ed536a839628"
+                                    ],
+                                    "guid": "h3BZbg29ET",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create a function named&nbsp;<b>remove_middle</b>&nbsp;which has three parameters named&nbsp;<b>lst</b>,&nbsp;<b>start</b>, and&nbsp;<b>end</b>.<br><br></div><div>The function should return a list where all elements in&nbsp;<b>lst</b>&nbsp;with an index between&nbsp;<b>start</b>&nbsp;and&nbsp;<b>end</b>&nbsp;(inclusive) have been removed.<br></div>",
+                                        "<b>Example 1:<br>input: </b>lst =&nbsp;[4, 8,&nbsp;15, 16, 23, 42], start = 1, end = 3<br><b>output:&nbsp;</b>[4, 23, 42]<br><br><b>Example 2:</b><br><b>input: </b>lst = [0, 1, 2, 3, 4, 5], start = 1, end = 4<br><b>output: </b>[0, 5]<br><br><b>Example 3:</b><br><b>input: </b>lst = [5, 8, 3, 6, 4], start = 0, end = 4<br><b>output: </b>[]",
+                                        "def remove_middle(lst, start, end):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
+                                        "Go to <b>2. Remove Middle</b>",
+                                        "def remove_middle(lst, start, end):<br>&nbsp; &nbsp; return lst[:start] +&nbsp;lst[end+1:]",
+                                        "This can be solved using one line of code if you combine and slice the lists at the same time. Slicing allows us to get the segments of the list before and after the index range and the operation&nbsp;+&nbsp;allows us to combine them together.",
+                                        "",
+                                        "09ce0a34-5b75-49c5-8abe-548a8738f3d8"
+                                    ],
+                                    "guid": "saJr6R&a?w",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create a function named&nbsp;<b>more_frequent_item</b>&nbsp;that has three parameters named&nbsp;<b>lst</b>,&nbsp;<b>item1</b>, and&nbsp;<b>item2</b>.<br><br></div><div>Return either&nbsp;<b>item1</b>&nbsp;or&nbsp;<b>item2</b>&nbsp;depending on which item appears more often in&nbsp;<b>lst</b>.<br><br></div><div>If the two items appear the same number of times, return&nbsp;<b>item1</b>.</div>",
+                                        "def more_frequent_item(lst, item1, item2):",
+                                        "<b>Example 1:<br>input:&nbsp;</b>lst = [2, 3, 3, 2, 3, 2, 3, 2, 3], item1 = 2, item2 = 3<b><br>output: </b>3<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = [0, 0, 1, 1], item1 = 0, item2 = 1<b><br>output: </b>0<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst = [1, 0, 1], item1 = 0, item2 = 1<b><br>output: </b>1",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
+                                        "Go to <b>3. More Frequent Item</b>",
+                                        "def more_frequent_item(lst, item1, item2):<br>&nbsp; &nbsp; if lst.count(item1) &gt;= lst.count(item2):<br>&nbsp; &nbsp; &nbsp; &nbsp; return item1<br>&nbsp; &nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; return item2",
+                                        "<div><div>We use the&nbsp;<b>count()</b>&nbsp;function to find the number of occurrences for each item. We then compare the counts against each other to find the item which appears the most in the list. The item with the most appearances is returned by the function.</div></div>",
+                                        "",
+                                        "abcbfd34-305b-4b78-b61a-205ce6de779c"
+                                    ],
+                                    "guid": "uowp%e^m^`",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create a function named&nbsp;<b>double_index</b>&nbsp;that has two parameters: a list named&nbsp;<b>lst</b>&nbsp;and a single number named&nbsp;<b>index</b>.<br><br></div><div>The function should return a new list where all elements are the same as in&nbsp;<b>lst</b>&nbsp;except for the element at&nbsp;<b>index</b>. The element at&nbsp;<b>index</b>&nbsp;should be double the value of the element at&nbsp;<b>index</b>&nbsp;of the original&nbsp;<b>lst</b>.<br><br></div><div>If&nbsp;<b>index</b>&nbsp;is not a valid index, the function should return the original list.<br><br>Do NOT modify the input list.</div>",
+                                        "<b>Example 1:<br>input: </b>lst = [1, 2, 3, 4], index = 2<b><br>output: </b>[1, 2, 6, 4]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst =&nbsp;[1, 2, 3, 4], index = 20<br><b>output:&nbsp;</b>[1, 2, 3, 4]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst =&nbsp;[1, 2, 3, 4], index = 20<br><b>output:</b>",
+                                        "def double_index(lst, index):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
+                                        "Go to <b>4. Double Index</b>",
+                                        "def double_index(lst, index):<br>&nbsp; &nbsp; # Checks to see if index is too big or too small<br>&nbsp;&nbsp;&nbsp; if index &gt;= len(lst) or index &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp; &nbsp; &nbsp; &nbsp; # Gets the original list up to index<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new_lst = lst[0:index]<br><br>&nbsp; &nbsp; # Adds double the value at index to the new list<br>&nbsp;&nbsp;&nbsp; new_lst.append(lst[index] * 2)<br><br>&nbsp; &nbsp; #&nbsp; Adds the rest of the original list<br>&nbsp;&nbsp;&nbsp; new_lst = new_lst + lst[index + 1:]<br>&nbsp;&nbsp;&nbsp; return new_lst",
+                                        "Note that this solution is careful not to modify the original input list. If we were to simply use&nbsp;<b>lst[index] = lst[index] * 2</b>&nbsp;then the list that was passed into the function would be modified outside of the function as well. Creating a new list and writing the values to it prevents this from happening. We use slicing to extract the values before and after the index and we append the modified value at the index to our new list.<br><br># A more concise solution:<br>def double_index(lst, index):<br>&nbsp;&nbsp;&nbsp; if index &gt;= len(lst) or index &lt; 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst<br>&nbsp;&nbsp;&nbsp; answer = lst[:]<br>&nbsp;&nbsp;&nbsp; answer[index] *= 2<br>&nbsp;&nbsp;&nbsp; return answer",
+                                        "",
+                                        "0510ce50-39fb-4dfa-91d5-33c1e3e6031a"
+                                    ],
+                                    "guid": "QsMYV0+?7d",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create a function called&nbsp;<b>middle_element</b>&nbsp;that has one parameter named&nbsp;<b>lst</b>.<br><br></div><div>If there are an odd number of elements in&nbsp;<b>lst</b>, the function should return the middle element. If there are an even number of elements, the function should return the average of the middle two elements.</div>",
+                                        "<b>Example 1:<br>input: </b>lst =<b>&nbsp;</b>[5, 2, -10, -4, 4, 5]<b><br></b><b>output: </b>-7.0<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>[5, 2, -10, -4, 4]<br><b>output:&nbsp;</b>-10<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>[1, 2, 3, 4]<br><b>output: </b>2.5",
+                                        "def middle_element(lst):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-lists</a>",
+                                        "Go to <b>5. Middle Item</b>",
+                                        "def middle_element(lst):<br>&nbsp;&nbsp;&nbsp; if len(lst) % 2 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sum = lst[int(len(lst) / 2)] + lst[int(len(lst) / 2) - 1]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return sum / 2<br>&nbsp;&nbsp;&nbsp; else:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return lst[int(len(lst) / 2)]",
+                                        "<div>We used modulus to determine if the list had an even or odd number of elements. After determining this, for an odd number of elements, we calculate the middle index and return the middle element from the list. For an even number of elements, we calculate the index of the element close to the middle and the other element close to the middle (by subtracting 1 from the middle calculation). We get the values at those indices and calculate the average.<br><br></div><div>Note that the math to find the middle index is a bit tricky. In some cases, when we divide by&nbsp;<b>2</b>, we would get a double. For example, if our list had&nbsp;<b>3</b>&nbsp;items in it, then&nbsp;<b>3/2</b>&nbsp;would give us&nbsp;<b>1.5</b>. The middle index should be&nbsp;<b>1</b>, so in order to go from&nbsp;<b>1.5</b>&nbsp;to&nbsp;<b>1</b>, we cast&nbsp;<b>1.5</b>&nbsp;as an&nbsp;int. In total, this is&nbsp;<b>int(len(lst)/2)</b>.</div>",
+                                        "",
+                                        "a16ba1d2-3ceb-4929-8d31-56b922b585f3"
+                                    ],
+                                    "guid": "AI|{CfE1fH",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create a function named&nbsp;<b>divisible_by_ten()</b>&nbsp;that takes a list of numbers named&nbsp;<b>nums</b>&nbsp;as a parameter.<br><br></div><div>Return the count of how many numbers in the list are divisible by 10.</div>",
+                                        "<b>Example 1:<br>input:&nbsp;</b>[20, 25, 30, 35, 40]<b><br></b><b>output: </b>3<br><br><b>Example 2:</b><br><b>input: </b>[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]<br><b>output: </b>1<br><br><b>Example 3:</b><br><b>input: </b>[5, 15, 25]<br><b>output: </b>0",
+                                        "def divisible_by_ten(nums):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
+                                        "Go to <b>1. Divisible By Ten</b>",
+                                        "def divisible_by_ten(nums):<br>&nbsp;&nbsp;&nbsp; count = 0<br>&nbsp;&nbsp;&nbsp; for number in nums:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if number % 10 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; count += 1<br>&nbsp;&nbsp;&nbsp; return count",
+                                        "In this solution, we defined the function and set up our counter. We use a&nbsp;<b>for</b>&nbsp;loop to iterate through each number and check if its divisible by ten. If a number is divisible by another number then the remainder should be zero, so we use modulus. After the loop has finished, we return our count.",
+                                        "",
+                                        "21cf6d71-3eca-4e77-8cc7-5e5f3995b2c7"
+                                    ],
+                                    "guid": "gA;A:D0#Qd",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Create a function named&nbsp;<b>add_greetings()</b>&nbsp;which takes a list of strings named&nbsp;<b>names</b>&nbsp;as a parameter.<br><br></div><div>In the function, create an empty list that will contain each greeting. Add the string&nbsp;<b>'Hello, '</b>&nbsp;in front of each name in&nbsp;<b>names</b>&nbsp;and&nbsp;<b>append</b>&nbsp;the greeting to the list.<br><br></div><div>Return the new list containing the greetings.</div>",
+                                        "<b>Example 1:<br>input: </b>names = [\"Seth\", \"Alex\", \"Paul\"]<br><b>output:&nbsp;</b>['Hello, Seth', 'Hello, Alex', 'Hello, Paul']<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>names = []<br><b>output: </b>[]<br><br><b>Example 3:</b><br><b>input: </b>[\"Elon\"]<br><b>output: </b>[\"Hello, Elon\"]",
+                                        "def add_greetings(names):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
+                                        "Go to <b>2. Greetings</b>",
+                                        "def add_greetings(names):<br>&nbsp;&nbsp;&nbsp; new_list = []<br>&nbsp;&nbsp;&nbsp; for name in names:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; new_list.append('Hello, ' + name)<br>&nbsp;&nbsp;&nbsp; return new_list",
+                                        "First, we set up our function to accept the list of strings and we initialized a new list of strings to hold our greetings. We iterate through each name and we append and concatenate the strings at the same time within our loop. Finally, we return the list containing all of our eloquent greetings.",
+                                        "",
+                                        "b6242453-2024-4c1d-8a75-a4e195487368"
+                                    ],
+                                    "guid": "CxE,3a~!g5",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<div>Write a function called&nbsp;<b>delete_starting_evens()</b>&nbsp;that has a parameter named&nbsp;<b>lst</b>.<br><br></div><div>The function should remove elements from the front of&nbsp;<b>lst</b>&nbsp;until the front of the list is not even. The function should then return&nbsp;<b>lst</b>.</div>",
+                                        "<b>Example 1:<br>input: </b>lst =&nbsp;[4, 8, 10, 11, 12, 15]<br><b>output:&nbsp;</b>[11, 12, 15]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst =&nbsp;[2, 4, 6, 8]<br><b>output: </b>[]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst = [1, 2, 4, 6, 8, 10, 12]<br><b>output:&nbsp;</b>[1, 2, 4, 6, 8, 10, 12]",
+                                        "def delete_starting_evens(lst):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
+                                        "Go to <b>3. Delete Starting Even Numbers</b>",
+                                        "def delete_starting_evens(lst):<br>&nbsp;&nbsp;&nbsp; while len(lst) &gt; 0 and lst[0] % 2 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; lst = lst[1:]<br>&nbsp;&nbsp;&nbsp; return lst",
+                                        "After defining our method, we use a&nbsp;<b>while</b>&nbsp;loop to keep iterating as long as some provided conditions are true. We provide two conditions for the&nbsp;<b>while</b>&nbsp;loop to continue. We will keep iterating as long as there is at least one number left in the list&nbsp;<b>len(lst) &gt; 0</b>&nbsp;and if the first element in the list is even&nbsp;<b>lst[0] % 2 == 0</b>. If both of these conditions are true, then we replace the list with every element except for the first one using&nbsp;<b>lst[1:]</b>. Once the list is empty or we hit an odd number, the&nbsp;<b>while</b>&nbsp;loop terminates and we return the modified list.",
+                                        "",
+                                        "b78e2d1a-2748-4e8a-943a-b461950e6831"
+                                    ],
+                                    "guid": "n,hpJEc~f=",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-14420c3abac7fecd932df0794506b3049f0b5f5e.jpg\">",
+                                        "<b>Example 1:<br>input: </b>lst = [4, 3, 7, 10, 11, -2]<b><br>output: </b>[3, 10, -2]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>[10, 4, 5, 3]<br><b>output:&nbsp;</b>[4, 3]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>[0, 1, 2, 3, 4]<br><b>output:&nbsp;</b>[1, 3]",
+                                        "def odd_indices(lst):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
+                                        "Go to <b>4. Odd Indices</b>",
+                                        "<img src=\"paste-80c066ce842676c2e4bcfa2cbf22a612fb314e86.jpg\">",
+                                        "<img src=\"paste-3085956e2b51bb3adceb3b481485e1cb061e3696.jpg\">",
+                                        "",
+                                        "c631c97f-64b9-46c6-bf8d-c520ec046175"
+                                    ],
+                                    "guid": "G1Kk^Y<+rB",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-07bd6d3d5ad86bc5d16483286db34eb97d898fa9.jpg\">",
+                                        "<b>Example 1:<br>input: </b>bases = [2, 3, 4], powers = [1, 2, 3]<br><b>output:&nbsp;</b>[2, 4, 8, 3, 9, 27, 4, 16, 64]<br><br><b>Example 2:</b><br><b>input: </b>bases = [10, 20], powers = [1, 2]<br><b>output: </b>[10, 100, 20, 400]<br><br><b>Example 3:</b><br><b>input: </b>bases = [10], powers = [1]<br><b>output: </b>[10]",
+                                        "def exponents(bases, powers):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-loops</a>",
+                                        "Go to <b>5. Exponents</b>",
+                                        "<img src=\"paste-5844996fd259dedb3fd684a67698333904129ae5.jpg\">",
+                                        "<img src=\"paste-cee074307529ee12f9310f33aef138f6f6be346e.jpg\">",
+                                        "",
+                                        "72ce9fd2-82d4-4485-9c9d-221d4edb76a0"
+                                    ],
+                                    "guid": "b5D&/z(uoZ",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-31b11bb98119df221265b42a145da6bb2a6b62d9.jpg\">",
+                                        "<b>Example 1:<br>input: </b>lst1 = [1, 9, 5], lst2 = [2, 3, 7]<b><br>output:&nbsp;</b>[1, 9, 5]<b><br><br>Example 2:<br>input:</b><b>&nbsp;</b>lst1 =&nbsp;[1, 4, 5], lst2 = [7, 2, 1]<b><br>output:&nbsp;</b>[1, 4, 5]<b><br><br>Example 3:<br>input:</b><b>&nbsp;</b>lst1 =&nbsp;[1, 9, 5], lst2 = [6, 5, 9]<b><br>output:&nbsp;</b>[6, 5, 9]",
+                                        "def larger_sum(lst1, lst2):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
+                                        "Go to <b>1. Larger Sum</b>",
+                                        "<img src=\"paste-c95536e10c7e26bd7869be0a72cbb976a1b8edac.jpg\">",
+                                        "<img src=\"paste-d9219e1a72bf9719c9da74b0e76c6a31ca2185f8.jpg\">",
+                                        "",
+                                        "615aaa9c-54d5-4e38-92b7-9d711542fb57"
+                                    ],
+                                    "guid": "q4e*LvO/qF",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-271f8d8325a0fcb9383d959a42530dd32c74f35d.jpg\">",
+                                        "<b>Example 1:<br>input: </b>lst =&nbsp;[8000, 900, 120, 5000]<br><b>output: </b>9020<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst = [9000, 100, 200]<br><b>output: </b>9100<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst =&nbsp;[9001, 100, 200]<br><b>output: </b>9001<br><br><b>Example 4:</b><br><b>input:&nbsp;</b>lst =&nbsp;[1, 2, 3]<br><b>output:&nbsp;</b>5",
+                                        "def over_nine_thousand(lst):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
+                                        "Go to <b>2. Over 9000</b>",
+                                        "<img src=\"paste-fced8da294105490e7eb026b9e97952eb3247c83.jpg\">",
+                                        "<img src=\"paste-d116ff3e8ab6ee5f13dd1dae76ada53d5dddca62.jpg\">",
+                                        "",
+                                        "113ec108-02fc-4e7b-b327-4f23ea1392e1"
+                                    ],
+                                    "guid": "G-:(Uph@X~",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-ff9b503a7e49a53d3297b94485031de0d67ffacd.jpg\">",
+                                        "<b>Example 1:<br>input: </b>nums =&nbsp;[50, -10, 0, 75, 20]<br><b>output: </b>75<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>nums = [1, 2, 3, 4, 5]<br><b>output: </b>5<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>nums = [7, 4, 2, 6, 4]<br><b>output: </b>7",
+                                        "def max_num(nums):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
+                                        "Go to <b>3. Max Num</b>",
+                                        "<img src=\"paste-b1d59ef498e07940c4e595b8fc43e3098300671a.jpg\">",
+                                        "<img src=\"paste-b96cc7275f8062e730958b75b09e790052dab7a7.jpg\">",
+                                        "",
+                                        "9d9f7968-df11-47a3-a55a-e35daf28fe32"
+                                    ],
+                                    "guid": "c>?O![T/Z}",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-e00c213ce87cdba4828f0329a87b4a49f9570e9e.jpg\"><br>You can assume lists are of equal length.",
+                                        "<b>Example 1:<br>input: </b>lst1 = [5, 1, -10, 3, 3], lst2 =&nbsp;[5, 10, -10, 3, 5]<br><b>output:&nbsp;</b>[0, 2, 3]<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst1 = [10, 20, 30, 40], lst2 =&nbsp;[20, 10, 40, 30]<br><b>output: </b>[]<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst1 = [10, 20, 30, 40], lst2 =&nbsp;[10, 20, 30, 40]<br><b>output:&nbsp;</b>[0, 1, 2, 3]",
+                                        "def same_values(lst1, lst2):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
+                                        "Go to <b>4. Same Values</b>",
+                                        "<img src=\"paste-da74bad6b566275caf1f964216fe435212b24903.jpg\">",
+                                        "<img src=\"paste-fba9cb53fd3607915cfd773693ef3cb59ec405f2.jpg\">",
+                                        "",
+                                        "49c85d80-b6f8-4bcb-befb-98ac3d629e33"
+                                    ],
+                                    "guid": "PUGpc)K>38",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-ff26106a80a2f4ae69a3e2a2702e74338a3a6851.jpg\"><br>You can assume both input lists are of equal length.",
+                                        "<b>Example 1:<br>input: </b>lst1 = [1, 2, 3], lst2 = [3, 2, 1]<br><b>output:&nbsp;</b>True<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>lst1 = [1, 2, 3], lst2 =&nbsp;[1, 2, 3]<br><b>output:&nbsp;</b>False<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>lst1 = [16, 3, 6], lst2 =&nbsp;[3, 6, 4]<br><b>output: </b>False",
+                                        "def reversed_list(lst1, lst2):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-loops</a>",
+                                        "Go to <b>5. Reversed List</b>",
+                                        "<img src=\"paste-07f14e534e22e361f5d7dec8b7617966be235df0.jpg\">",
+                                        "<img src=\"paste-cf9d00758e503bcae0d5f574f91a8fc40a228b93.jpg\">",
+                                        "",
+                                        "ded416e1-159d-4392-a501-bff338c6fc65"
+                                    ],
+                                    "guid": "mQS:KCdi*T",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-5b70491a5e3040310a96544f5494dc9aae7c81fd.jpg\">",
+                                        "<b>Example 1:<br>input: </b>first_name = \"James\", last_name = \"Bond\"<br><b>output: </b>\"Bond, James Bond\"<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>first_name = \"Maya\", last_name = \"Angelou\"<br><b>output: </b>\"Angelou, Maya Angelou\"<br><br><b>Example 3:</b><br><b>input:&nbsp;</b>first_name = \"Seth\", last_name = \"Samuelson\"<br><b>output: </b>\"Samuelson, Seth Samuleson\"",
+                                        "",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-functions\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-functions</a>",
+                                        "Go to <b>3. Bond, James Bond</b>",
+                                        "def introduction(first_name, last_name):<br>&nbsp; &nbsp; return last_name +&nbsp;\", \" +&nbsp;first_name +&nbsp;\" \" +&nbsp;last_name",
+                                        "<img src=\"paste-bad1754d549f78ea49da0bdf52aa46002b24acd4.jpg\">",
+                                        "",
+                                        "4B2F7F7F-BFAD-40CE-B2C7-ED1662A0DA51"
+                                    ],
+                                    "guid": "m<CgM1S3qp",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-6bb5f2c36249b685ab2d52eb97dccc523494577c.jpg\">",
+                                        "<b>Example 1:<br>input: </b>name&nbsp; = \"Lola\", age = 16<br><b>output:&nbsp;</b>\"Lola, you are 112 years old in dog years\"<b><br></b><br><b>Example 2:</b><br><b>input:&nbsp;</b>name&nbsp; = \"Baby\", age = 0<br><b>output:&nbsp;</b>\"Baby, you are 0 years old in dog years\"<b><br></b><br><b>Example 3:</b><br><b>input:&nbsp;</b>name&nbsp; = \"Bob\", age = 10<br><b>output:&nbsp;</b>\"Bob, you are 70 years old in dog years\"",
+                                        "def dog_years(name, age):",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-functions\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-functions</a>",
+                                        "Go to <b>4. Dog Years</b>",
+                                        "def dog_years(name, age):<br>&nbsp; &nbsp; return name+\", you are \"+str(age *&nbsp;7)+\" years old in dog years\"",
+                                        "<img src=\"paste-6c501869dd1914fbf974da98d0fc9452db1b5ab4.jpg\">",
+                                        "",
+                                        "0BD5C3B1-73B9-41FB-A88B-3FE29168D3D4"
+                                    ],
+                                    "guid": "e17jE8?LB3",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                },
+                                {
+                                    "__type__": "Note",
+                                    "fields": [
+                                        "<img src=\"paste-503bc30c9df797c806ce94860ba11f545f51a32e.jpg\">",
+                                        "<b>Example 1:<br>input: </b>a = 1, b = 2, c = 3, d = 4<br><b>output: <br></b># it should print:<br>3<br>-1<br>-3<br># and it should return:<br>0<br><br><b>Example 2:</b><br><b>input:&nbsp;</b>a = 1, b = 1, c = 1, d = 1<br><b>output: </b><br># it should print:<br>2<br>0<br>0<br># and it should return:<br>0",
+                                        "def lots_of_math(a, b, c, d):<br>&nbsp; &nbsp;&nbsp;<br><br><div># Test your lots_of_math function:</div><div>print(lots_of_math(1, 2, 3, 4)) # should print 3, -1, -3, 0</div><div>print(lots_of_math(1, 1, 1, 1)) # should print 2, 0, 0, 0</div>",
+                                        "",
+                                        "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-functions\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-functions</a>",
+                                        "Go to <b>5. All Operations</b>",
+                                        "def lots_of_math(a, b, c, d):<br>&nbsp;&nbsp;&nbsp; first =&nbsp;a +&nbsp;b<br>&nbsp;&nbsp;&nbsp;&nbsp;second =&nbsp;c -&nbsp;d<br>&nbsp;&nbsp;&nbsp;&nbsp;third =&nbsp;first *&nbsp;second<br>&nbsp;&nbsp;&nbsp; fourth =&nbsp;third %&nbsp;a<br>&nbsp;&nbsp;&nbsp; print(first)<br>&nbsp;&nbsp;&nbsp; print(second)<br>&nbsp;&nbsp;&nbsp; print(third)<br>&nbsp;&nbsp;&nbsp; return fourth",
+                                        "<img src=\"paste-5aace55ea8ea45229a4442d6d9a912cc107cfb5e.jpg\">",
+                                        "",
+                                        "56000CF9-5A14-4239-A99F-C42824E097A1"
+                                    ],
+                                    "guid": "sIiEOZE]tH",
+                                    "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                    "tags": []
+                                }
+                            ]
+                        },
+                        {
+                            "__type__": "Deck",
+                            "children": [
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "fad75cca-074d-11ec-9e1c-3e22fb2860fe",
+                                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "paste-060c3145548004071272de1bbeb37f5d1be9958e.jpg",
+                                        "paste-09af0066a6b9b159b2bb9947d9f3e7974fa33f81.jpg",
+                                        "paste-18ca305a644c8c4a72cd23de7f19240ddde7756d.jpg",
+                                        "paste-4831628c9d4dd22d74524c4d76e20bdaf834b965.jpg",
+                                        "paste-81a99cc02275bdb77613986e668ce7f7abe714a7.jpg",
+                                        "paste-959d856ab5fa66ce6ec6ae03c121cb3cdfa7d412.jpg",
+                                        "paste-99c1ad39588bbc814a58a36bb99aa05603605ea8.jpg",
+                                        "paste-da30fcaf9b26e070a1941216ad8df291f31b1b87.jpg"
+                                    ],
+                                    "name": "1. Strings",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-da30fcaf9b26e070a1941216ad8df291f31b1b87.jpg\">",
+                                                "<b>Example 1:<br>input: </b>word = \"mississippi\"<br><b>output:&nbsp;</b>4<b><br></b><br><b>Example 2:</b><br><b>input:&nbsp;</b>word = \"Apple\"<br><b>output: </b>4<br><br><b>Example 3:</b><br><b>input: </b>word = \"ABCabc\"<br><b>output: </b>6",
+                                                "def unique_english_letters(word):<br>&nbsp; letters = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz\"",
+                                                "print(unique_english_letters(\"mississippi\"))<br># should print: 4<br>print(unique_english_letters(\"Apple\"))<br># should print: 4<br>print(unique_english_letters(\"ABCabc\"))<br># should print: 6",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings</a>",
+                                                "Go to <b>1. Count Letters</b>",
+                                                "def unique_english_letters(word):<br>&nbsp; letters = \"ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz\"<br>&nbsp;&nbsp;uniques =&nbsp;0<br>&nbsp;&nbsp;for letter in letters:<br>&nbsp;&nbsp;&nbsp;&nbsp;if letter in word:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;uniques += 1<br>&nbsp;&nbsp;return uniques",
+                                                "<img src=\"paste-81a99cc02275bdb77613986e668ce7f7abe714a7.jpg\">",
+                                                "",
+                                                "F70CB574-250B-44F8-9638-6DAB2C00EA3D"
+                                            ],
+                                            "guid": "<nME4V}FR",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-99c1ad39588bbc814a58a36bb99aa05603605ea8.jpg\">",
+                                                "",
+                                                "def count_char_x(word, x):",
+                                                "<div><div>print(count_char_x(\"mississippi\", \"s\"))</div><div># should print: 4</div><div>print(count_char_x(\"mississippi\", \"m\"))</div><div># should print: 1</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings</a>",
+                                                "Go to <b>2. Count X</b>",
+                                                "def count_char_x(word, x):<br>&nbsp;&nbsp;occurrences =&nbsp;0<br>&nbsp;&nbsp;for letter in word:<br>&nbsp;&nbsp;&nbsp;&nbsp;if letter == x:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;occurrences += 1<br>&nbsp;&nbsp;return occurrences",
+                                                "This solution loops through the input string and compares it against the input character. If they are the same, then we increase the counter.",
+                                                "",
+                                                "EBB99425-FAB3-47C4-B11B-0439FB0827AB"
+                                            ],
+                                            "guid": "n5dqZlReQ0",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "Write a function named&nbsp;<b>count_multi_char_x</b>&nbsp;that takes a string named&nbsp;<b>word</b>&nbsp;and a string named&nbsp;<b>x.</b> This function should return the number of times&nbsp;<b>x</b>&nbsp;appears in&nbsp;<b>word</b>. Make sure your function works when&nbsp;<b>x</b>&nbsp;is multiple characters long.",
+                                                "",
+                                                "def count_multi_char_x(word, x):",
+                                                "<div><div>print(count_multi_char_x(\"mississippi\", \"iss\"))</div><div># should print: 2</div><div>print(count_multi_char_x(\"apple\", \"pp\"))</div><div># should print :1</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings</a>",
+                                                "Go to <b>3. Count Multi X</b>",
+                                                "def count_multi_char_x(word, x):<br>&nbsp;&nbsp;splits =&nbsp;word.split(x)<br>&nbsp;&nbsp;return(len(splits)-1)",
+                                                "<img src=\"paste-09af0066a6b9b159b2bb9947d9f3e7974fa33f81.jpg\">",
+                                                "",
+                                                "82754D24-9034-462D-A33C-50069124401F"
+                                            ],
+                                            "guid": "o6>wQ[u;mD",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-4831628c9d4dd22d74524c4d76e20bdaf834b965.jpg\">",
+                                                "",
+                                                "def substring_between_letters(word, start, end):",
+                                                "<div><div>print(substring_between_letters(\"apple\", \"p\", \"e\"))</div><div># should print \"pl\"</div><div>print(substring_between_letters(\"apple\", \"p\", \"c\"))</div><div># should print \"apple\"</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings</a>",
+                                                "Go to <b>4. Substring Between</b>",
+                                                "def substring_between_letters(word, start, end):<br>&nbsp;&nbsp;start_ind =&nbsp;word.find(start)<br>&nbsp;&nbsp;end_ind =&nbsp;word.find(end)<br>&nbsp;&nbsp;if start_ind &gt; -1 and end_ind &gt; -1:<br>&nbsp;&nbsp;&nbsp;&nbsp;return(word[start_ind+1:end_ind])<br>&nbsp;&nbsp;return word",
+                                                "The .find() string method returns -1 if the string we're searching for is not found.<br><img src=\"paste-959d856ab5fa66ce6ec6ae03c121cb3cdfa7d412.jpg\">",
+                                                "",
+                                                "E977D9D1-9B52-498D-9645-A961A1509CA1"
+                                            ],
+                                            "guid": "x5Og=:a8V",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-18ca305a644c8c4a72cd23de7f19240ddde7756d.jpg\">",
+                                                "",
+                                                "def x_length_words(sentence, x):",
+                                                "<div><div>print(x_length_words(\"i like apples\", 2))</div><div># should print False</div><div>print(x_length_words(\"he likes apples\", 2))</div><div># should print True</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-strings</a>",
+                                                "Go to <b>5. X Length</b>",
+                                                "def x_length_words(sentence, x):<br>&nbsp;&nbsp;words =&nbsp;sentence.split(\" \")<br>&nbsp;&nbsp;for word in words:<br>&nbsp;&nbsp;&nbsp;&nbsp;if len(word) &lt; x:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return False<br>&nbsp;&nbsp;return True",
+                                                "<img src=\"paste-060c3145548004071272de1bbeb37f5d1be9958e.jpg\">",
+                                                "",
+                                                "05FB15A6-A3DF-4331-B4E7-D937EAA85A81"
+                                            ],
+                                            "guid": "MU]c*_beiG",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "fad77c82-074d-11ec-9e1c-3e22fb2860fe",
+                                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "paste-3d1643b04e60a639fb8af1c04e8e32fbafc62497.jpg",
+                                        "paste-429aa5e3d49be79f6481dc91229b2d68bf20a892.jpg",
+                                        "paste-4c8af601b487cdeda13bdef22bc21ca4be29eff3.jpg",
+                                        "paste-605a6de882c4fee31bc5b910f1b0a63e037f6ea2.jpg",
+                                        "paste-6d71419887f7808fbe56f226b1db37a205b88935.jpg",
+                                        "paste-8b7cd694e1b93a90d4778f13c60b022ab6eb7497.jpg",
+                                        "paste-b4deefab4546438939f344ed10645756a5c527cc.jpg",
+                                        "paste-fc1039c0283603bfcc558e15baf02be972299a3c.jpg",
+                                        "paste-fedb2d0631b13ca39d8dfa817be0c8d12916efa8.jpg"
+                                    ],
+                                    "name": "2. Strings (Advanced)",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-4c8af601b487cdeda13bdef22bc21ca4be29eff3.jpg\">",
+                                                "",
+                                                "def check_for_name(sentence, name):",
+                                                "<div><div>print(check_for_name(\"My name is Jamie\", \"Jamie\"))</div><div># should print True</div><div>print(check_for_name(\"My name is jamie\", \"Jamie\"))</div><div># should print True</div><div>print(check_for_name(\"My name is Samantha\", \"Jamie\"))</div><div># should print False</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings</a>",
+                                                "Go to <b>1. Check Name</b>",
+                                                "def check_for_name(sentence, name):<br>&nbsp;&nbsp;return name.lower() in sentence.lower()",
+                                                "<img src=\"paste-605a6de882c4fee31bc5b910f1b0a63e037f6ea2.jpg\">",
+                                                "",
+                                                "7DFC1888-BC02-4088-A0AD-364E7FBAC83B"
+                                            ],
+                                            "guid": "D?FHtP+Qpn",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-6d71419887f7808fbe56f226b1db37a205b88935.jpg\">",
+                                                "",
+                                                "def every_other_letter(word):",
+                                                "<div><div>print(every_other_letter(\"Codecademy\"))</div><div># should print Cdcdm</div><div>print(every_other_letter(\"Hello world!\"))</div><div># should print Hlowrd</div><div>print(every_other_letter(\"\"))</div><div># should print&nbsp;</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings</a>",
+                                                "Go to <b>2. Every Other Letter</b>",
+                                                "def every_other_letter(word):<br>&nbsp;&nbsp;every_other =&nbsp;\"\"<br>&nbsp;&nbsp;for i in range(0, len(word), 2):<br>&nbsp;&nbsp;&nbsp;&nbsp;every_other += word[i]<br>&nbsp;&nbsp;return every_other",
+                                                "<img src=\"paste-8b7cd694e1b93a90d4778f13c60b022ab6eb7497.jpg\">",
+                                                "",
+                                                "092C73B2-E59D-427A-AB17-D2FA8BD2CDC9"
+                                            ],
+                                            "guid": "bnwTjguin]",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-b4deefab4546438939f344ed10645756a5c527cc.jpg\">",
+                                                "",
+                                                "def reverse_string(word):",
+                                                "<div><div>print(reverse_string(\"Codecademy\"))</div><div># should print ymedacedoC</div><div>print(reverse_string(\"Hello world!\"))</div><div># should print !dlrow olleH</div><div>print(reverse_string(\"\"))</div><div># should print</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings</a>",
+                                                "Go to <b>3. Reverse</b>",
+                                                "def reverse_string(word):<br>&nbsp;&nbsp;reverse =&nbsp;\"\"<br>&nbsp;&nbsp;for i in range(len(word)-1, -1, -1):<br>&nbsp;&nbsp;&nbsp;&nbsp;reverse += word[i]<br>&nbsp;&nbsp;return reverse",
+                                                "<b>Range</b>&nbsp;has been modified in order to start at the last index of the string (length of the string minus one) up to the first index. Since the parameter for the ending index is exclusive we need to provide the index of one more iteration than what we want to stop at. We want to stop at&nbsp;0, and since we are incrementing by -1, we will set the ending index to -1. Finally, make sure to add the third parameter of&nbsp;<b>-1</b>. This makes us increment by&nbsp;<b>-1</b>&nbsp;at each step.",
+                                                "",
+                                                "C6854318-F447-41A4-98ED-B7A135C0D7DF"
+                                            ],
+                                            "guid": "OrkEcf<3#_",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-3d1643b04e60a639fb8af1c04e8e32fbafc62497.jpg\">",
+                                                "",
+                                                "def make_spoonerism(word1, word2):",
+                                                "<div><div>print(make_spoonerism(\"Codecademy\", \"Learn\"))</div><div># should print Lodecademy Cearn</div><div>print(make_spoonerism(\"Hello\", \"world!\"))</div><div># should print wello Horld!</div><div>print(make_spoonerism(\"a\", \"b\"))</div><div># should print b a</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings</a>",
+                                                "Go to <b>4. Make Spoonerism</b>",
+                                                "def make_spoonerism(word1, word2):<br>&nbsp;&nbsp;return word2[0]+word1[1:]+\" \"+word1[0]+word2[1:]",
+                                                "<img src=\"paste-fedb2d0631b13ca39d8dfa817be0c8d12916efa8.jpg\">",
+                                                "",
+                                                "71C0A63B-F056-409D-B54E-D10111EF8087"
+                                            ],
+                                            "guid": "E8X{2@Bp^{",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-fc1039c0283603bfcc558e15baf02be972299a3c.jpg\">",
+                                                "",
+                                                "def add_exclamation(word):",
+                                                "<div><div>print(add_exclamation(\"Codecademy\"))</div><div># should print Codecademy!!!!!!!!!!</div><div>print(add_exclamation(\"Codecademy is the best place to learn\"))</div><div># should print Codecademy is the best place to learn</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-strings</a>",
+                                                "Go to <b>5. Add Exclamation</b>",
+                                                "def add_exclamation(word):<br>&nbsp;&nbsp;while(len(word) &lt; 20):<br>&nbsp;&nbsp;&nbsp;&nbsp;word += \"!\"<br>&nbsp;&nbsp;return word",
+                                                "<img src=\"paste-429aa5e3d49be79f6481dc91229b2d68bf20a892.jpg\">",
+                                                "",
+                                                "875DBA0B-8B06-43FF-82C2-FA2D4B45D72E"
+                                            ],
+                                            "guid": "vJ56?<cyk8",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "fad7b026-074d-11ec-9e1c-3e22fb2860fe",
+                                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "paste-08f2210779324abf6685092fb792c70b596d9e6c.jpg",
+                                        "paste-1296bded7a2e72e4c28b8bb1bcc6ca1287804780.jpg",
+                                        "paste-1ac6dade981f822fdf128ff4ca98a2804437deae.jpg",
+                                        "paste-212f9dccf2a8ea3536a3be8065a7cdfaa52485a0.jpg",
+                                        "paste-2ab44e923c53d778f6aef2d6bac960f6023fc380.jpg",
+                                        "paste-837f1bf50fb0e2bb4d9e794e8fed987ab852fc87.jpg",
+                                        "paste-c780c2499be859c8ef7ac805232fb61ff13fa9ca.jpg",
+                                        "paste-dc20c8aebe3b5fb2a104d3c54b8a5b1490d4cebc.jpg",
+                                        "paste-f8a040a0a5d5125c324275c6eac3c507dab42e7d.jpg"
+                                    ],
+                                    "name": "3. Dictionaries",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-1296bded7a2e72e4c28b8bb1bcc6ca1287804780.jpg\">",
+                                                "",
+                                                "def sum_values(my_dictionary):",
+                                                "<div><div>print(sum_values({\"milk\":5, \"eggs\":2, \"flour\": 3}))</div><div># should print 10</div><div>print(sum_values({10:1, 100:2, 1000:3}))</div><div># should print 6</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries</a>",
+                                                "Go to <b>1. Sum Values</b>",
+                                                "def sum_values(my_dictionary):<br>&nbsp;&nbsp;total =&nbsp;0<br>&nbsp;&nbsp;for value in my_dictionary.values():<br>&nbsp;&nbsp;&nbsp;&nbsp;total += value<br>&nbsp;&nbsp;return total",
+                                                "<img src=\"paste-1ac6dade981f822fdf128ff4ca98a2804437deae.jpg\">",
+                                                "",
+                                                "722CC226-04A5-4099-8F3A-EBD04AC9B6D6"
+                                            ],
+                                            "guid": "H%{uaFu*M/",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-dc20c8aebe3b5fb2a104d3c54b8a5b1490d4cebc.jpg\">",
+                                                "",
+                                                "def sum_even_keys(my_dictionary):",
+                                                "<div><div>print(sum_even_keys({1:5, 2:2, 3:3}))</div><div># should print 2</div><div>print(sum_even_keys({10:1, 100:2, 1000:3}))</div><div># should print 6<br><div>print(sum_even_keys({1: 7, 2: 3, 3: 9, 4: 20}))</div><div># should print 23</div></div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries</a>",
+                                                "Go to <b>2. Even Keys</b>",
+                                                "<div>def sum_even_keys(my_dictionary):<br>&nbsp;&nbsp;total =&nbsp;0<br>&nbsp;&nbsp;for key in my_dictionary.keys():<br>&nbsp;&nbsp;&nbsp;&nbsp;if key%2 == 0:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;total += my_dictionary[key]<br>&nbsp;&nbsp;return total</div>",
+                                                "We are iterate through the keys of our dictionary. In order to get the keys we use the&nbsp;<b>keys()</b>&nbsp;function and to get the value of a key we can use brackets. To test if the key is even we use the modulus operator and test if the remainder is 0 when dividing by 2.",
+                                                "",
+                                                "CFBE08BD-5B8A-4F8D-8D5D-C0D3B5A7769B"
+                                            ],
+                                            "guid": "mZ4Z[iU,$}",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-2ab44e923c53d778f6aef2d6bac960f6023fc380.jpg\">",
+                                                "",
+                                                "def add_ten(my_dictionary):",
+                                                "<div>print(add_ten({1:5, 2:2, 3:3}))</div><div># should print {1:15, 2:12, 3:13}</div><div>print(add_ten({10:1, 100:2, 1000:3}))</div><div># should print {10:11, 100:12, 1000:13}</div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries</a>",
+                                                "Go to <b>3. Add Ten</b>",
+                                                "def add_ten(my_dictionary):<br>&nbsp;&nbsp;for key in my_dictionary.keys():<br>&nbsp;&nbsp;&nbsp;&nbsp;my_dictionary[key] += 10<br>&nbsp;&nbsp;return my_dictionary",
+                                                "<img src=\"paste-c780c2499be859c8ef7ac805232fb61ff13fa9ca.jpg\">",
+                                                "",
+                                                "C1EC3B8C-2A26-4294-AFC9-84E678003EA1"
+                                            ],
+                                            "guid": "kTbAm&~Anb",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-f8a040a0a5d5125c324275c6eac3c507dab42e7d.jpg\">",
+                                                "",
+                                                "def values_that_are_keys(my_dictionary):",
+                                                "<div><div>print(values_that_are_keys({1:100, 2:1, 3:4, 4:10}))</div><div># should print [1, 4]</div><div>print(values_that_are_keys({\"a\":\"apple\", \"b\":\"a\", \"c\":100}))</div><div># should print [\"a\"]</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries</a>",
+                                                "Go to <b>4. Values That Are Keys</b>",
+                                                "def values_that_are_keys(my_dictionary):<br>&nbsp;&nbsp;value_keys =&nbsp;[]<br>&nbsp;&nbsp;for value in my_dictionary.values():<br>&nbsp;&nbsp;&nbsp;&nbsp;if value in my_dictionary:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;value_keys.append(value)<br>&nbsp;&nbsp;return value_keys",
+                                                "<img src=\"paste-08f2210779324abf6685092fb792c70b596d9e6c.jpg\">",
+                                                "",
+                                                "11DBCD5E-E9A2-4ADE-9649-A395994EFFCF"
+                                            ],
+                                            "guid": "k<5cP&NBu~",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-212f9dccf2a8ea3536a3be8065a7cdfaa52485a0.jpg\">",
+                                                "",
+                                                "def max_key(my_dictionary):",
+                                                "<div><div>print(max_key({1:100, 2:1, 3:4, 4:10}))</div><div># should print 1</div><div>print(max_key({\"a\":100, \"b\":10, \"c\":1000}))</div><div># should print \"c\"</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/python-code-challenges-dictionaries</a>",
+                                                "Go to <b>5. Largest Value</b>",
+                                                "def max_key(my_dictionary):<br>&nbsp;&nbsp;largest_key =&nbsp;float(\"-inf\")<br>&nbsp;&nbsp;largest_value =&nbsp;float(\"-inf\")<br>&nbsp;&nbsp;for key, value in my_dictionary.items():<br>&nbsp;&nbsp;&nbsp;&nbsp;if value &gt; largest_value:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;largest_value =&nbsp;value<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;largest_key =&nbsp;key<br>&nbsp;&nbsp;return largest_key",
+                                                "<img src=\"paste-837f1bf50fb0e2bb4d9e794e8fed987ab852fc87.jpg\">",
+                                                "",
+                                                "61C4EEB9-C8D9-4530-AD08-0E04579EE4C0"
+                                            ],
+                                            "guid": "Eqe}%-90.?",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "__type__": "Deck",
+                                    "children": [],
+                                    "crowdanki_uuid": "fad7d6d2-074d-11ec-9e1c-3e22fb2860fe",
+                                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                                    "desc": "",
+                                    "dyn": 0,
+                                    "extendNew": 0,
+                                    "extendRev": 0,
+                                    "media_files": [
+                                        "paste-2cd8b2d6d1f03683f55fe5e3dbe8766da1c9f6ed.jpg",
+                                        "paste-2e37345e328b895fff205e83cd598dad179f01af.jpg",
+                                        "paste-5ae75c88fffda1466bd60b38cd121c772a2ac4b6.jpg",
+                                        "paste-abcf77624a0920c93bd258d324fa4ed799e643bd.jpg",
+                                        "paste-b2f9c6e3f3dc61f879ecbb59d6a9640ba943e1f3.jpg",
+                                        "paste-bddccb95cbb1ed56030dbea87b94c10831206454.jpg",
+                                        "paste-d3f5ee7cfe23e0e2dbeb85e434abcef2c71bde7f.jpg"
+                                    ],
+                                    "name": "4. Dictionaries (Advanced)",
+                                    "notes": [
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-d3f5ee7cfe23e0e2dbeb85e434abcef2c71bde7f.jpg\">",
+                                                "",
+                                                "def word_length_dictionary(words):",
+                                                "<div><div>print(word_length_dictionary([\"apple\", \"dog\", \"cat\"]))</div><div># should print {\"apple\":5, \"dog\": 3, \"cat\":3}</div><div>print(word_length_dictionary([\"a\", \"\"]))</div><div># should print {\"a\": 1, \"\": 0}</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries</a>",
+                                                "Go to <b>1. Word Length Dict</b>",
+                                                "def word_length_dictionary(words):<br>&nbsp;&nbsp;word_lengths =&nbsp;{}<br>&nbsp;&nbsp;for word in words:<br>&nbsp;&nbsp;&nbsp;&nbsp;word_lengths[word] =&nbsp;len(word)<br>&nbsp;&nbsp;return word_lengths",
+                                                "<img src=\"paste-bddccb95cbb1ed56030dbea87b94c10831206454.jpg\">",
+                                                "",
+                                                "79989126-1CA9-44D6-83E0-13137C98AA98"
+                                            ],
+                                            "guid": "xF3Y?2/d:l",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-2e37345e328b895fff205e83cd598dad179f01af.jpg\">",
+                                                "",
+                                                "def frequency_dictionary(words):",
+                                                "<div><div>print(frequency_dictionary([\"apple\", \"apple\", \"cat\", 1]))</div><div># should print {\"apple\":2, \"cat\":1, 1:1}</div><div>print(frequency_dictionary([0,0,0,0,0]))</div><div># should print {0:5}</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries</a>",
+                                                "Go to <b>2. Frequency Count</b>",
+                                                "def frequency_dictionary(words):<br>&nbsp;&nbsp;freqs =&nbsp;{}<br>&nbsp;&nbsp;for word in words:<br>&nbsp;&nbsp;&nbsp;&nbsp;if word not in freqs:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;freqs[word] =&nbsp;0<br>&nbsp;&nbsp;&nbsp;&nbsp;freqs[word] += 1<br>&nbsp;&nbsp;return freqs",
+                                                "<img src=\"paste-b2f9c6e3f3dc61f879ecbb59d6a9640ba943e1f3.jpg\">",
+                                                "",
+                                                "30DD7A0E-7C75-4758-ABB5-8257F6B55D1F"
+                                            ],
+                                            "guid": "x[;RI5nlO/",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-5ae75c88fffda1466bd60b38cd121c772a2ac4b6.jpg\">",
+                                                "",
+                                                "def unique_values(my_dictionary):",
+                                                "<div><div>print(unique_values({0:3, 1:1, 4:1, 5:3}))</div><div># should print 2</div><div>print(unique_values({0:3, 1:3, 4:3, 5:3}))</div><div># should print 1</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries</a>",
+                                                "Go to <b>3. Unique Values</b>",
+                                                "def unique_values(my_dictionary):<br>&nbsp;&nbsp;seen_values =&nbsp;[]<br>&nbsp;&nbsp;for value in my_dictionary.values():<br>&nbsp;&nbsp;&nbsp;&nbsp;if value not in seen_values:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;seen_values.append(value)<br>&nbsp;&nbsp;return len(seen_values)",
+                                                "We iterate through each of the values and whenever we find one we have not added to our list already, we add it to the list. After the loop, we return the length of the list since that contains all unique values from the dictionary.",
+                                                "",
+                                                "7801ED9C-AAD8-4403-A1C4-AF542FDB06BA"
+                                            ],
+                                            "guid": "dv#y$7vr0.",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        },
+                                        {
+                                            "__type__": "Note",
+                                            "fields": [
+                                                "<img src=\"paste-abcf77624a0920c93bd258d324fa4ed799e643bd.jpg\">",
+                                                "",
+                                                "def count_first_letter(names):",
+                                                "<div><div>print(count_first_letter({\"Stark\": [\"Ned\", \"Robb\", \"Sansa\"], \"Snow\" : [\"Jon\"], \"Lannister\": [\"Jaime\", \"Cersei\", \"Tywin\"]}))</div><div># should print {\"S\": 4, \"L\": 3}</div><div><br>print(count_first_letter({\"Stark\": [\"Ned\", \"Robb\", \"Sansa\"], \"Snow\" : [\"Jon\"], \"Sannister\": [\"Jaime\", \"Cersei\", \"Tywin\"]}))</div><div># should print {\"S\": 7}</div></div>",
+                                                "<a href=\"https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries\">https://www.codecademy.com/courses/learn-python-3/articles/advanced-python-code-challenges-dictionaries</a>",
+                                                "Go to <b>4. Count First Letter</b>",
+                                                "def count_first_letter(names):<br>&nbsp;&nbsp;letters =&nbsp;{}<br>&nbsp;&nbsp;for key in names:<br>&nbsp;&nbsp;&nbsp;&nbsp;first_letter =&nbsp;key[0]<br>&nbsp;&nbsp;&nbsp;&nbsp;if first_letter not in letters:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;letters[first_letter] =&nbsp;0<br>&nbsp;&nbsp;&nbsp;&nbsp;letters[first_letter] += len(names[key])<br>&nbsp;&nbsp;return letters",
+                                                "<img src=\"paste-2cd8b2d6d1f03683f55fe5e3dbe8766da1c9f6ed.jpg\">",
+                                                "",
+                                                "C508F5CF-F793-40BD-9CCC-3807A9D949FA"
+                                            ],
+                                            "guid": "tVo`YdG&%#",
+                                            "note_model_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+                                            "tags": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "crowdanki_uuid": "38330f34-079d-11ec-b314-3e22fb2860fe",
+                            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                            "desc": "",
+                            "dyn": 0,
+                            "extendNew": 0,
+                            "extendRev": 0,
+                            "media_files": [],
+                            "name": "Code Challenges 2",
+                            "notes": []
+                        }
+                    ],
+                    "crowdanki_uuid": "814dd704-07a6-11ec-afac-3e22fb2860fe",
+                    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+                    "desc": "",
+                    "dyn": 0,
+                    "extendNew": 0,
+                    "extendRev": 0,
+                    "media_files": [],
+                    "name": "Learn Python 3",
+                    "notes": []
+                }
+            ],
+            "crowdanki_uuid": "38326c1e-079d-11ec-b314-3e22fb2860fe",
+            "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 0,
+            "extendRev": 0,
+            "media_files": [],
+            "name": "Codecademy",
+            "notes": []
+        }
+    ],
+    "crowdanki_uuid": "38324ce8-079d-11ec-b314-3e22fb2860fe",
+    "deck_config_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "98a467a4-ffbf-11eb-849c-3e22fb2860fe",
+            "dyn": false,
+            "interdayLearningMix": 0,
+            "lapse": {
+                "delays": [
+                    10.0
+                ],
+                "leechAction": 1,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1.0,
+                    10.0
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    0
+                ],
+                "order": 1,
+                "perDay": 9999
+            },
+            "newMix": 0,
+            "newPerDayMinimum": 0,
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "perDay": 9999
+            },
+            "reviewOrder": 0,
+            "timer": 0
+        }
+    ],
+    "desc": "",
+    "dyn": 0,
+    "extendNew": 0,
+    "extendRev": 0,
+    "media_files": [],
+    "name": "curriculum-optional",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "a2c9167c-0144-11ec-bb59-3e22fb2860fe",
+            "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  color: white;\n  background-color: #1e272e\n}\n\na{\n\tcolor: #82ccdd;\n  text-decoration: underline;\n}\n\n#feedback, #submit{\n\t\tfont-size: 20px;\n\t}\n\n    #submit{\n    \tbackground: #f53b57;\n        color: white;\n        border: 0;\n        padding: 10px 20px 10px 20px;\n        border-radius: 5px;\n\t\t\t\t outline: none;\n    }\n    #submit:hover{\n    \tcursor: pointer;\n      background: #e52b47;\n    }\n    \n        #submit:active{\n    \tcursor: pointer;\n        background: #c50b27;\n    }\n\n    #feedbackwrapper{\n    \t   display: none;\n        align-items: center;\n        flex-direction: column;\n    }\n\n\n\t\t/* LOADER STYLES */\n.loader {\n  border: 16px solid #f3f3f3; /* Light grey */\n  border-top: 16px solid #3498db; /* Blue */\n  border-radius: 50%;\n  width: 120px;\n  height: 120px;\n  animation: spin 2s linear infinite;\n\topacity: 0.8;\n\tposition: absolute;\n\tdisplay: none;\n}\n\n@keyframes spin {\n  0% { transform: rotate(0deg); }\n  100% { transform: rotate(360deg); }\n}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "name": "Description",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Examples",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Starter Code",
+                    "ord": 2,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Tests",
+                    "ord": 3,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "URL",
+                    "ord": 4,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "URL Instructions",
+                    "ord": 5,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Answer",
+                    "ord": 6,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Optional",
+                    "ord": 7,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "name": "Personal",
+                    "ord": 8,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": true
+                },
+                {
+                    "font": "Arial",
+                    "name": "ID",
+                    "ord": 9,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Code Challenge - Dev Accelerator",
+            "req": [
+                [
+                    0,
+                    "any",
+                    [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                ]
+            ],
+            "sortf": 0,
+            "tags": [],
+            "tmpls": [
+                {
+                    "afmt": "<head>\n<script defer>\nfunction load(){\nconst feedbackWrapper = document.getElementById(\"feedbackwrapper\")\nfeedbackWrapper.style.display = \"flex\"\nconst cardId = document.getElementById('id').textContent\nconst feedback = document.getElementById('feedback')\nconst button = document.getElementById('submit')\nconst loader = document.querySelector('.loader')\nbutton.onclick = async () => {\n  if (feedback.value === \"\"){\n\t\talert(\"Feedback not submitted because field was empty\")\n \t\treturn\n\t}\n\tloader.style.display = \"block\"\n\tconst response = await fetch(\"https://api-anki-feedback-collector.herokuapp.com/cardfeedback\", {\n\t\tmethod: 'POST',\n        headers: {\n        \t'Accept': 'application/json',\n        \t'Content-Type': 'application/json'\n      \t},\n      \tbody: JSON.stringify({\n        \tfeedback: feedback.value, \n            cardID: cardId\n        })\n    })\n\t\tloader.style.display = \"none\"\n    if (response.ok){\n    \tfeedback.value = ''\n    \talert(\"Feedback submitted successfully.\")\n    } else {\n    \talert(\"Error submitting feedback. Please notify me at 619-776-2454 OR alexficachirizo@gmail.com\")\n    }\n}\n}\nload()\n</script>\n</head>\n\n\n{{FrontSide}}\n\n<hr id=answer>\n<br>\n\n\n\n<div style=\"color: #ffdd59;\">\n# One possible solution: <br>\n\t{{Answer}}\n</div>\n\n{{#Personal}}\n<br><br>\n\t<div style=\"color: #0be881\">\n\t\t<em>Personal:</em><br><br>\n\t\t{{Personal}}\n\t</div>\n{{/Personal}}\n\n{{#Optional}}\n\t<div style=\"color: #4bcffa\">\n\t\t<br><br>\n\t\t<em>Optional:</em><br><br>\n\t\t{{Optional}}\n\t</div>\n{{/Optional}}\n<br><br><br><br>\n\n<div style=\"font-size: 8px\">\n\tAlex Ficachi Coaching\n\t<div style=\"visibility: hidden\">\n\t\tCARD ID: \n\t\t<span id=\"id\">\n\t\t\t{{ID}}\n\t\t</span>\n\t</div>\n</div>\n\n<br>\n<div id=\"feedbackwrapper\">\n<textarea cols=\"50\" id=\"feedback\" placeholder=\"Write feedback, questions, or suggestions here\" rows=\"8\"></textarea>\n<div class=\"loader\"></div>\n<button id=\"submit\">Submit</button>\n</div>\n\n",
+                    "bafmt": "",
+                    "bfont": "",
+                    "bqfmt": "",
+                    "bsize": 0,
+                    "did": null,
+                    "name": "Card 1",
+                    "ord": 0,
+                    "qfmt": "<style>\n #heading{\n\t\tcolor: #34e7e4;\n\t}\n\t\n</style>\nTest your code here:<br>\n({{URL Instructions}}):\n{{URL}}\n<br><br>\n\n<b id=\"heading\">Description</b>: <br>\n{{Description}}\n<br><br><br>\n\n{{#Examples}}\n<b id=\"heading\">Examples</b>: <br>\n{{Examples}}\n<br><br><br>\n{{/Examples}}\n\n{{#Starter Code}}\n<b id=\"heading\">Starting Code</b>: <br>\n{{Starter Code}}\n<br>\n<br>\n{{/Starter Code}}\n{{#Tests}}\n# Print statements to test code: <br>\n{{Tests}}\n{{/Tests}}"
+                }
+            ],
+            "type": 0
+        }
+    ],
+    "notes": []
+}
